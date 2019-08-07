@@ -22,7 +22,6 @@ func main() {
 		fmt.Println("Git repo URL:", repoURL)
 		processRepo(repoURL)
 	}
-
 }
 
 func readFromFile(filePath string) {
