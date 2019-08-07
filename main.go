@@ -23,7 +23,7 @@ func main() {
 	repoPathDotGit := repoPath + "/.git"
 	// If repo exists, git pull
 	if _, err := os.Stat(repoPathDotGit); !os.IsNotExist(err) {
-		// We instanciate a new repository targeting the given path (the .git folder)
+		// We instantiate a new repository targeting the given path (the .git folder)
 		repo, err := git.PlainOpen(repoPath)
 		if err != nil {
 			log.Fatal(err)
