@@ -7,7 +7,7 @@
 ### With one repo:
 
 ```sh
-gitcup https://github.com/sirodoht/go-gitcup.git
+$ gitcup https://github.com/sirodoht/go-gitcup.git
 ```
 
 ### With multiple repos on a file
@@ -21,7 +21,7 @@ https://github.com/sirodoht/galois.git
 
 Use with `-f` flag:
 ```sh
-gitcup -f repos.txt
+$ gitcup -f repos.txt
 ```
 
 ## License
