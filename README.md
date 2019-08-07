@@ -4,13 +4,13 @@
 
 ## Usage
 
-With one repo:
+### With one repo:
 
 ```sh
 gitcup https://github.com/sirodoht/go-gitcup.git
 ```
 
-With multiple repos on a file
+### With multiple repos on a file
 
 Example file `repos.txt`:
 ```txt
